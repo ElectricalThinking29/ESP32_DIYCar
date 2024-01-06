@@ -31,7 +31,7 @@ limitations under the License.
   Link of the app on CH Play: https://play.google.com/store/apps/details?id=com.giristudio.hc05.bluetooth.arduino.control
 */
 
-#include <Arduino.h>
+#include <Arduino.h> // Uncomment this line if you use Arduino IDE
 #include "BluetoothSerial.h"
 
 String device_name = "ESP32-DIYCar";
