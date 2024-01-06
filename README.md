@@ -1,7 +1,7 @@
 # ESP32_DIYCar
 The example sketch for ESP32 connect to "Arduino Bluetooth Control" app via Bluetooth
 - Made by ElectricThinking29
-- Youtube: [@TheElectricTHINK](www.youtube.com/@TheElectricTHINK)
+- Youtube: [@TheElectricTHINK](https://www.youtube.com/channel/UCbpYFgVtG8vMAZKuXPV0L8g)
 
 # Description
 + This a example sketch for ESP32 connect to "Arduino Bluetooth Control" app via Bluetooth.
@@ -30,7 +30,7 @@ I had used some knowledge form these guys:
 5. [How to Install CH340 Drivers_By_Sparkfun](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
 # Youtube Channel
-+ If you can, please support me on my Youtube's channel: [@TheElectricTHINK](www.youtube.com/@TheElectricTHINK).
++ If you can, please support me on my Youtube's channel: [@TheElectricTHINK](https://www.youtube.com/channel/UCbpYFgVtG8vMAZKuXPV0L8g).
 
 # Contact
 + E-mail: electricalthinking29@gmail.com
