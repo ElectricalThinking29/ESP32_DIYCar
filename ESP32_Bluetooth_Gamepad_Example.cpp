@@ -1,7 +1,7 @@
 /*** MY CHANNEL ***
 If you can, please support me on my Youtube's channel:
 
-    www.youtube.com/@TheElectricTHINK
+    https://www.youtube.com/@TheElectricTHINK
 
 by hitting like, share and subscribe's buttons to my videos.
 
