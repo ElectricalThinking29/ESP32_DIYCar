@@ -1,7 +1,7 @@
 # ESP32_DIYCar
 The example sketch for ESP32 connect to "Arduino Bluetooth Control" app via Bluetooth
 - Made by ElectricThinking29
-- Youtube: The ElectricTHINK
+- Youtube: [@TheElectricTHINK](www.youtube.com/@TheElectricTHINK)
 
 # Description
 + This a example sketch for ESP32 connect to "Arduino Bluetooth Control" app via Bluetooth.
