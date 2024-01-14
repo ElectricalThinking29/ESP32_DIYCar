@@ -17,17 +17,25 @@ The example sketch for ESP32 connect to "Arduino Bluetooth Control" app via Blue
    + If you use Arduino IDE, you can find the instruction [here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
    + If you use PlatformIO on VS Code (like me), then you may don't need to do anything thus it has already been installed.
 3. Install the Bluetooth Serial Library: BluetoothSerial.h.
-   + If you use Arduino IDE, you can find the instructions [here](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
+   + If you use Arduino IDE, you can find the instructions [here](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries). **If you CAN'T find the library, you may want to look the guide below**
    + If you use PlatformIO on VS Code (like me), do these steps: Open "PIO Home" -> Libraries (On the Left) -> Type "BluetoothSerial" -> Choose "BluetoothSerial by Seeed" -> Click "Add to project" -> Choose your project you want to install the library -> then hit "Add"
 4. Open main file, write the code, build/verify and load the program.
+
+# How to get "BluetoothSerial.h" on Arduino IDE
+1. Go to [this website](https://os.mbed.com/teams/Seeed/code/BluetoothSerial/) and download the zip file
+![Download the zip file](img/download_zip_file.jpg)
+2. Open Arduino IDE and go through all the [instruction](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries) for adding library in zip-file format.
+   ![Add .ZIP Library](img/add_zip-ltbrary.jpg)
+3. Try add ```#include "BluetoothSerial.h"``` to your .ino file and Verify it to see if it has added the library successfully or not.
 
 # References
 I had used some knowledge form these guys:
 1. [Arduino Bluetooth Controller_By_Giristudio](https://play.google.com/store/apps/details?id=com.giristudio.hc05.bluetooth.arduino.control)
 2. [Bluetooth Serial Library_By_espressif](https://github.com/espressif/arduino-esp32/tree/master/libraries/BluetoothSerial)
-3. [Installing the ESP32 Board in Arduino IDE (Windows, Mac OS X, Linux)_By_Random Nerd Tutorials](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
-4. [Installing Libraries_By_Arduino](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
-5. [How to Install CH340 Drivers_By_Sparkfun](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+3. [library for Bluetooth Shield from Seeed Studio](https://os.mbed.com/teams/Seeed/code/BluetoothSerial/)
+4. [Installing the ESP32 Board in Arduino IDE (Windows, Mac OS X, Linux)_By_Random Nerd Tutorials](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+5. [Installing Libraries_By_Arduino](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
+6. [How to Install CH340 Drivers_By_Sparkfun](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
 # Youtube Channel
 + If you can, please support me on my Youtube's channel: [@TheElectricTHINK](https://www.youtube.com/channel/UCbpYFgVtG8vMAZKuXPV0L8g).
